@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.local
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# node
+node_modules/
+.next/
+
+# generated files
+backend/generated/*
+!backend/generated/*/.gitkeep
