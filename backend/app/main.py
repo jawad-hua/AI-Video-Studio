@@ -1,4 +1,5 @@
 import logging
+import os
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request
@@ -34,9 +35,19 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="AI Video Studio API", version="0.10.0", lifespan=lifespan)
 
 # Sirf local frontend ko allow karo
+frontend_url = os.getenv("FRONTEND_URL", "").rstrip("/")
+
+allowed_origins = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+
+if frontend_url:
+    allowed_origins.append(frontend_url)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=allowed_origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )
