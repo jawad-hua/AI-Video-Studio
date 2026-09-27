@@ -33,6 +33,19 @@ It is designed specifically for creating vertical content for **TikTok and Faceb
 [Check Backend Health](https://jawad-hua-ai-video-studio-api.hf.space/api/health)
 
 ---
+## 🖼️ Application Preview
+
+### Dashboard
+
+![AI Video Studio Dashboard](assets/screenshots/ai-video-studio-dashboard.png)
+
+### Templates
+
+![AI Video Studio Templates](assets/screenshots/ai-video-studio-templates.png)
+
+### Generated Projects
+
+![AI Video Studio Projects](assets/screenshots/ai-video-studio-projects.png)
 
 ## 📌 Project Overview
 
