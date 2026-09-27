@@ -22,21 +22,15 @@ It is designed specifically for creating vertical content for **TikTok and Faceb
 
 ### 🌐 Web Application
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20AI%20Video%20Studio-brightgreen?style=for-the-badge)](https://ai-video-studio-sigma-murex.vercel.app/)
-
-**Live App:**  
-https://ai-video-studio-sigma-murex.vercel.app/
+[![Open AI Video Studio](https://img.shields.io/badge/OPEN_AI_VIDEO_STUDIO-LIVE_DEMO-22c55e?style=for-the-badge)](https://ai-video-studio-sigma-murex.vercel.app/)
 
 ### ⚙️ Backend API
 
-[![Backend](https://img.shields.io/badge/Backend-Hugging%20Face-yellow?style=for-the-badge)](https://jawad-hua-ai-video-studio-api.hf.space)
-
-**API:**  
-https://jawad-hua-ai-video-studio-api.hf.space
+[![Backend API](https://img.shields.io/badge/BACKEND_API-HUGGING_FACE-facc15?style=for-the-badge)](https://jawad-hua-ai-video-studio-api.hf.space)
 
 ### ❤️ API Health Check
 
-https://jawad-hua-ai-video-studio-api.hf.space/api/health
+[Check Backend Health](https://jawad-hua-ai-video-studio-api.hf.space/api/health)
 
 ---
 
